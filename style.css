@@ -110,7 +110,7 @@ header{
         margin: 0px 20px;
     }
 }
-@med5ia (max-width:1090px){
+@media (max-width:1090px){
     #menu-icon{
         display: block;
 
