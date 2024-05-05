@@ -37,14 +37,14 @@ header{
 }
 .logo i{
     color:var(--main-color);
-    font-size: 22px;
+    font-size: 28px;
     margin-right: 3px;
 
 }
 .logo span{
     color:var(--text-color);
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 1.8rem;
+    font-weight: 600;
 
 }
 .navbar{
@@ -75,7 +75,7 @@ header{
     margin-right: 25px;
     margin-left: 10px;
     color:var(--text-color);
-    font-size: 10px;
+    font-size: 1.1rem;
     font-weight: 500;
     transition: all .50s ease;
 }
@@ -120,7 +120,7 @@ header{
         top:100%;
         right: -100%;
         width: 270px;
-        height: 33vh;
+        height: 30vh;
         background: var(--main-color);
         display: flex;
         flex-direction: column;
@@ -133,6 +133,7 @@ header{
         margin: 12px 0;
         padding: 0px 25px;
         transition: all .50s ease;
+        font-size: 13px;
 
     }
     .navbar a:hover{
@@ -145,4 +146,18 @@ header{
     .navbar.open{
         right:2%;
     }
+    .logo span{
+        font-size: 10px;
+    }
+    .main a{
+        font-size: 13px;
+    }
+    .logo span{
+        font-size: 13px;
+    }
+    .logo i{
+        font-size: 20px;
+
+    }
+
 }
